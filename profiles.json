@@ -1,0 +1,74 @@
+// **Group members profiles**   
+// Each profile consists of (1) avatar, (2) username, (3) personal description, (4) number of "likes" the profile will receive throughout the interaction
+	
+window.others = {
+  "posts" : [
+      {
+        "avatar": "avatars/others/abigail.png",
+        "username": "ASB",
+        "text": "Hey I just turned 15 a week ago. My friends say that I’m loud and fun. I’m also really really busy because of homework and I’m in freshmen cheer and I have a bf who’s on the football team. Sometimes Jackson (my bf) and I don’t get to see each other because of the games and practices :( but he’s super sweet and its totally worth it when we do hang out. Seriously cannot wait for cheer camp this coming summer and trying out for the varsity team next year!!! <3 ",
+        "likes": [14000, 26000, 49000, 67000, 90000, 112000, 136000, 150000] //8
+     },
+     {
+        "avatar": "avatars/others/claudia.png",
+        "username": "CL",
+        "text": "This is interesting <3 Hello - I am outgoing and love having fun. I am on the volleyball team with all of my friends. I am sooo excited to get a new car for my 16th birthday!!! My sweet 16 is going to be so amazing! #yasss My girlfriends and I are going to a concert this weekend..can’t wait!!! #Sweet16 #My1stCar #livemusic #concert",
+        "likes": [20000, 33000, 52000, 75000, 100000, 129000, 148000] //7
+      },
+     {
+        "avatar": "avatars/others/makayla.png",
+        "username": "MK",
+        "text": "I love art, bright colors, and gardening. My favorite ice cream is cookie dough :). I like to listen to music especially if it’s One Direction.  Zayn Malik is life <3. I spend most of my time with my two best friends. We like to go shopping but we also like to go to our school’s football games and dances. #zayn #zaynmalik #love #LoveZaynMalik #mindofmine #mcm #mceveryday #onedirection #shopping #retailtherapy #mallislife #weekendwonder #bestfriends #bff #artsy #photoshopqueen #zaynfanclub",
+        "likes": [33300, 44400, 68000, 80000, 147000, 172000] //6
+      },
+      {
+        "avatar": "avatars/others/mia.png",
+        "username": "RR",
+        "text": "I am big into participating in my community and school because I love being able to give back, it makes me happy. This year I am in National Honor Society and I hope to join student council next year. I’m in Spanish club. In my free time I like to volunteer at the animal shelter and do fundraising for them for food and cleaning materials and stuff. Ialso like to read. My favorite book right now is Stargirl but I love all dramatic stories",
+        "likes": [28000, 71000, 91000, 119000, 161000] //5
+      },
+      {
+        "avatar": "avatars/others/sydney.png",
+        "username": "SRB",
+        "text": "I just moved here from another country a month ago. It’s very different and it does not rain as much as it did back home and i miss the smell of rain. I don’t really like the food here, too much meat and fried stuff, and people keep mispronouncing my name Like, cmon guys, it’s not that hard - it’s still english. I hope to start the school year better and make a few new friends. I’m excited to join some school clubs or try out for the swim team maybe...  ",
+        "likes": [29000, 64000, 82000, 105000, 159000] //5
+      },
+      {
+        "avatar": "avatars/others/daniel.png",
+        "username": "DE",
+        "text": "My family just got this cool new house that’s so much bigger then the place we used to live. Im legit hyped to have my friends over at the new place and we can chill by my pool. and imma try out for the football team next season",
+        "likes": [10000, 27000, 46000, 55000, 80000, 125000, 146000, 160000] //8
+      },
+      {
+        "avatar": "avatars/others/hunter.png",
+        "username": "HT",
+        "text": "heyyyy my friends tell me that I’m loud and outspoken. I love playing tennis, I am on the tennis team at my school. I play doubles with one of my good friends. Not to brag but we won state last year so that was cool. I also play for a competitive team that travels to other states.  Other than tennis, I just like to chill at home watching tv and playing on the computer",
+        "likes": [28000, 31000, 47000, 66000, 85000, 92000, 110000, 135000, 158000, 167000] //10
+      },
+      {
+        "avatar": "avatars/others/parker.png",
+        "username": "PY",
+        "text": "Whats up I’m pretty laid back. I’m very outgoing and every weekend my friends and I go watch whatever game is in season. My favorite sport is basketball, and my favorite team is the Lakers. #ThanksKobe #sportslegend I like to watch ESPN after school and go to our school’s games. After the games there is always a dance or house party that we hit up. #lit #party  ",
+        "likes": [19000, 38000, 41000, 63000, 97000, 137000, 148000, 178000] //8
+      },
+      {
+        "avatar": "avatars/others/jeorge.png",
+        "username": "JCJ",
+        "text": "Hey I’m JCJ. I’m 15 years old. I play football and basketball but football is my favorite. #oline #fridaynightlights  When I’m not playing football I like to chill with my friends on the weekends. We like to play Madden and go outside and play ball. All of my friends are on my basketball or football team.#fam We also like to go to the lake and wakeboard",
+        "likes": [49000, 58000, 71000, 93000, 117000, 157000] //6
+      },
+      {
+        "avatar": "avatars/others/timothy.png",
+        "username": "TW",
+        "text": "Hey, I’m T.W. aka Suhan in the DnD circles. Mathlete. Anime Club Officer. Cool if you get to know me, but I’m not putting myself out there. When I’m not at practice or at a competitition, I’m gaming at home (PC master race). I play MOBAs like Heroes of the Storm and some fighting games when I’m in the mood",
+		"likes": [37500, 68000, 91000, 134000] //4
+      },
+      {
+        "avatar": "avatars/others/nick.png",
+        "username": "NLQ",
+        "text": "Hello - well, some of my favorite things to do are dance and sing. Im a tenor in the school choir and really like it. This year we got to travel and sing at other schools. Im also in the show choir club which is fun becuase there's a group of us that get to dance and sing songs that we pick out and we perform for the whole highschool. NExt recital is in two weeks and i have a solo!!!",
+        "likes": [43000, 56000, 129000] //3
+      },
+    ]
+  };
+  
