@@ -221,7 +221,7 @@ $(function () {
         setTimeout(function () {
             $("#msg_all_done").show();
             $("#loader").hide();
-        }, 15);
+        }, 15000);
 
         $("#submit_fb_login").on("click", function () {
             $("#fb_login").hide();
