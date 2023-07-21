@@ -505,21 +505,6 @@ $(function () {
                 "&v=" +
                 window.pv;
         }, window.settings.tasklength); // timing for task
-
-        //Fix the timer and ranking
-        var ctop = parseInt($("#countdown").css("top"), 10);
-        var rtop = parseInt($("#rankings").css("top"), 10);
-        $(window).scroll(function () {
-            var currentScroll = $(window).scrollTop();
-
-            $("#countdown").css({
-                top: ctop + currentScroll,
-            });
-
-            $("#rankings").css({
-                top: rtop + currentScroll,
-            });
-        });
     }
 
     // Get URL parameters to set condition number and participant number
