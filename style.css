@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&display=swap");
 body {
     padding-top: 30px;
+    font-family: "Geologica", sans-serif !important;
 }
 
 .container {
@@ -60,6 +62,7 @@ img.avatar {
 
 div.masonry {
     width: 60vw;
+    margin-left: 150px;
 }
 
 .bottomhalf {
@@ -85,6 +88,15 @@ div.masonry {
 button.btn {
     padding: 0;
 }
+button {
+    background-color: #589df1;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem 2rem 0.75rem 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
 
 button.btn.btn-primary {
     padding: 3px;
@@ -95,13 +107,11 @@ button.btn.btn-primary {
     background-color: transparent;
     font-weight: bold;
     font-style: normal !important;
-    font-family: Helvetica, Arial, sans-serif;
     font-size: 17px;
 }
 
 html body {
     color: #000000;
-    background-color: #ebedf5;
 }
 #final-continue {
     margin-top: 20px;
@@ -221,10 +231,14 @@ span.badge.badge-custom.userslikes {
 }
 
 img.avatar.selected {
-    border-color: #1a1a1a;
+    border-color: #589df1;
     border-width: 5px;
     border-style: solid;
     margin: 11px !important;
+    padding: 5px !important;
+    -webkit-box-shadow: inset 0px 0px 0px 10px white;
+    -moz-box-shadow: inset 0px 0px 0px 10px white;
+    box-shadow: inset 0px 0px 0px 10px white;
 }
 
 .load {
@@ -277,29 +291,43 @@ span.cntr.label.label-info {
 
 #rankingdisplay ul {
     list-style-type: none;
-    padding: 1px;
-    margin: 1px;
+    width: min-content;
+    overflow: hidden;
+    border-radius: 12px;
 }
 
 .badge-ranking {
     background-color: #3b5999;
     color: white;
     font-weight: bold;
-    font-family: Helvetica, Arial, sans-serif;
     font-size: 17px;
     padding-top: 4px;
     width: 20px;
     text-align: center;
+}
+#rankingdisplay {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -20px;
+}
+#timer {
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 .badge-username {
     color: white;
     font-variant: normal;
     font-size: 16px;
     text-transform: capitalize;
-    background-color: #3b5999;
-    padding-top: 4px;
+    background-color: #589df1;
+    padding: 10px;
+    margin-top: -2px;
+    font-style: normal !important;
+    font-weight: 400;
     width: 70px;
-    text-align: center;
+    text-align: left;
+    border-radius: 0px !important;
 }
 .user_ranking {
     background-color: #5cb811 !important;

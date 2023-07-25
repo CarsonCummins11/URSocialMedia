@@ -55,7 +55,7 @@ If you don't have experience with programming, it is important that you alter on
 You can edit this text using basic HTML elements for styling (e.g., <br>, <h3>).
 
 */ 
---> <h3>Welcome to <i>Let's Share</i></h3>
+--> <h3>Welcome to <i style="color: #589DF1;">Let's Share</i></h3>
 
   <i>Let's Share</i> is a social network platform designed for sharing personal experiences.<br>
   You will now complete an online group task as a trial run for the platform.<br>
@@ -114,7 +114,7 @@ You can edit the instructions text. The text "Your choice of avatar will not be 
 </div>	
 
 
-<div id="text" style="display:none;" class="instr">	
+<div id="text" style="display:none; font-style: normal;" class="instr" >	
 <!-- 
 /* 
   
@@ -125,7 +125,12 @@ You can edit the instructions text.
 */ 
 -->	<h3>Share Your Experience</h3>
   Please write a few sentences to post to the group in response to the following prompt:<br><br>
-  <i>How does your sexual identity influence your social life experiences?<i>
+  <i>How does your sexual identity influence your social life experiences?</i>
+    <br><br>For example, you can consider how your sexual identity influences…<br><br>
+    ● your relationships with others including friends, family, colleagues, and romantic
+    partners.<br>
+    ● how you are perceived by others and how you perceive yourself in daily interactions.<br>
+    ● your expression of your identity and emotions around others<br>
 	<br><br>	
 	<textarea id="description" autocomplete="off" /></textarea><br>
 	<span id="count">Characters left: 400</span><br><br>
@@ -215,19 +220,20 @@ You can edit the instructions text.
     <br>
     <button type="submit" id='final-continue' style="display:none;">Continue</button>	
     </div>
-    <div id="rankings" style="position: fixed; left: 20px;">
+    <div id="rankings" style="position: fixed; left: 20px; margin-top: -20px;">
     <h3>Ranking</h3>
+    <div style="color: #b0b0b0; font-size: 0.8rem; margin-left: 1rem;">Most Liked</div>
     <div id="rankingdisplay"></div>
     <script type="template/text" id="ranking">
     <ul>
     {{#rankings}}
     <li>
-        <span class="badge badge-ranking {{user_class}}">{{rank}}</span>
         <span class="badge badge-username {{user_class}}">{{r_username}}</span>
     </li>
     {{/rankings}}
     </ul>
     </script>
+    <div style="color: #b0b0b0; font-size: 0.8rem; margin-left: 1rem; margin-top: -10px;">Least Liked</div>
     </div>
     <div id="task" style="display:none;">
 	

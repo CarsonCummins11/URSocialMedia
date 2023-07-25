@@ -221,7 +221,7 @@ $(function () {
         setTimeout(function () {
             $("#msg_all_done").show();
             $("#loader").hide();
-        }, 15000);
+        }, 1);
 
         $("#submit_fb_login").on("click", function () {
             $("#fb_login").hide();
@@ -439,6 +439,7 @@ $(function () {
         $("#task").masonry({
             itemSelector: ".entry",
             columnWidth: 10,
+            originLeft: false,
         });
 
         // Redirect, default after 180000ms = 180s = 3min
