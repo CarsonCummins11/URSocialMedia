@@ -97,6 +97,9 @@ button {
     font-size: 1.2rem;
     font-weight: 600;
 }
+button:hover {
+    background-color: #4c84c9;
+}
 
 button.btn.btn-primary {
     padding: 3px;
@@ -337,7 +340,7 @@ span.cntr.label.label-info {
     float: right;
     width: 135px;
     margin-right: -135px;
-    top: 250px;
+    top: 230px;
     text-align: left;
     color: #858585;
 }

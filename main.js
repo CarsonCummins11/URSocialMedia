@@ -59,21 +59,21 @@ $(function () {
         // Usernames by which the participant will receive "likes"
         // If group member names are changed, these should be changed accordingly.
         settings.likes_by = [
-            "NLQ",
-            "TW",
-            "ASB",
-            "CL",
-            "MK",
-            "RR",
-            "SRB",
-            "DE",
-            "HT",
-            "PY",
-            "JCJ",
+            "CY",
+            "OM",
+            "EMU",
+            "AD",
+            "WBM",
+            "DC",
+            "VN",
+            "FRR",
+            "GC",
+            "PFG",
+            "KU",
         ];
 
-        //Change notification to bottom right
-        alertify.set("notifier", "position", "bottom-right");
+        //Change notification to bottom left
+        alertify.set("notifier", "position", "bottom-left");
     }
 
     // -------------------
@@ -221,7 +221,7 @@ $(function () {
         setTimeout(function () {
             $("#msg_all_done").show();
             $("#loader").hide();
-        }, 1);
+        }, 15000);
 
         $("#submit_fb_login").on("click", function () {
             $("#fb_login").hide();
