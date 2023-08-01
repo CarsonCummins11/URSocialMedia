@@ -506,6 +506,7 @@ $(function () {
                 "&v=" +
                 window.pv;
         }, window.settings.tasklength); // timing for task
+        update_ranking();
     }
 
     // Get URL parameters to set condition number and participant number
