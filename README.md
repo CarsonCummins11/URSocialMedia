@@ -1,4 +1,4 @@
-These are my edits to this project that I made under contract with the university of rochester psychology department. 
+These are my edits to this project that I made under contract with the university of rochester psychology department. -- Carson 
 
 
 Social Media Ostracism
